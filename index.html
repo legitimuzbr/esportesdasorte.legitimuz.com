@@ -14,13 +14,13 @@
     }
         body {
             
-            background-color: #0C0C28;
+            background-color: #101768;
             color: #EAEAEA;
         }
         .custom-card {
             max-width: 400px;
             width: 100%;
-            background-color: #1C1C3D;
+            background-color: #020049;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -37,9 +37,9 @@
       
     <div class="custom-card text-center">
       
-        <img src="logose.png" alt="Sorte Esportiva" class="img-fluid" width="50%">
+        <img src="logoes.svg" alt="Sorte Esportiva" class="img-fluid" width="75%">
 
-        <h3 class="my-4"> Digite seu CPF: </h3>
+        <h3 class="mb-4 mt-3"> Digite seu CPF: </h3>
         <div class="my-3">
             <input type="text" class="form-control-lg w-100" placeholder="000.000.000-00" minlength="11" maxlength="11" id="legitimuz-hydrate-cpf">
         </div>
@@ -60,7 +60,7 @@
     <script lang="text/javascript">
       const legitimuz = Legitimuz({
         host: "https://api.legitimuz.com",
-        token: "ed8fdfe9-88d0-418b-bc09-ea685282d229",
+        token: "bb6f0df4-8e77-455f-803e-afd0fadf5f4a",
         onSuccess: (eventName) => {
           console.log(eventName); // ocr | facematch
         },
